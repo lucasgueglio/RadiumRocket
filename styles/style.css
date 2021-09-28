@@ -1,0 +1,198 @@
+@font-face {
+    font-family: BBCReith;
+    src: url(/fonts/BBCReithSans_Lt.ttf);
+    font-weight: light;
+  }
+
+  @font-face {
+      font-family: BBCReithMedium;
+      src: url(/fonts/BBCReithSans_Md.ttf);
+      
+  }
+
+  @font-face {
+    font-family: BBCReithRg;
+    src: url(/fonts/BBCReithSansCd_Rg.ttf);
+    
+}
+
+@font-face {
+    font-family: BBCReithBold;
+    src: url(/fonts/BBCReithSans_Bd.ttf);
+    
+}
+
+@font-face {
+    font-family: BBCReithSerif;
+    src: url(/fonts/BBCReithSerif_Md.ttf);
+    
+}
+
+
+.top-container {
+        background-color: #B80000;
+        display: flex;
+        flex-direction: row;
+        height: 66px;
+        z-index: 1600;
+        position: relative;
+        border-bottom: solid 1px orange;
+}
+
+.top-container-child {
+    background-color: #B80000;
+    display: flex;
+    flex-direction: row;
+    height: 26px;
+    z-index: 1600;
+    position: relative;
+    padding: 0.5em;
+    font-family: BBCReith;
+    font-weight: 600;
+    line-height: 1.5em;
+    color: white;
+    font-size: 1.1em;
+}
+
+.cont-text:hover {
+    text-decoration: underline;   
+    
+}
+
+main {
+    display: flex;    
+    padding: 0 2em 2em 2em;
+    padding-top: 0;
+  }
+  
+  .main-column {
+    flex: 2;
+    width: 55%;
+  }
+
+  .column {
+    margin-top: 3em;
+    flex: 1;
+    padding-left:11em;
+  }
+  
+h1{
+    font-size: 2.75rem;
+    line-height: 1.0909090909090908;
+    font-weight: 500;
+    color: #3F3F42;
+    margin-bottom: 0.5em;
+}
+
+.article-header {
+    margin-top: 0;
+
+}
+
+#author {
+
+}
+
+.author-name {
+    font-family: ReithSerif,Helvetica,Arial,freesans,sans-serif;
+    font-weight: 500;
+    color: #3F3F42;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.no-margin {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+p.mouse-over {
+    cursor: pointer;
+    padding-bottom: 1.5em;
+    border-bottom: solid 1px #BABABA;
+
+}
+
+
+.img-body{
+    overflow: hidden;
+    flex-direction: column;   
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+       
+}
+
+.article-body {
+    width: 72%;
+    margin-top: 2em;
+}
+
+p {
+    font-family: BBCReith;
+    font-weight: 600;
+    line-height: 1.5em;
+    
+}
+
+.important {
+    font-family: BBCReithBold;
+    font-size: 1em;
+}
+
+
+strong {
+    font-weight: normal;
+}
+
+h2{
+    font-family: BBCReithBold;
+    font-size: 1.92em;
+    opacity: 0.8;
+}
+
+a:link {
+    color: black;
+  }
+
+  a:visited {
+    color: black;
+    opacity: 0.5;
+  }
+
+ol.links li {
+    list-style-type: disc;
+    font-family: BBCReithBold;
+    font-size: 1em;
+}
+
+.bbc-slavery {
+    width: 25em;
+}
+
+h2.aside-title {
+    font-family: BBCReithSerif;
+    font-weight: 380;
+    line-height: 1.5em;
+    font-size: 1.25em;
+    border-top: 1px solid #B80000;
+    padding-top: 1em;
+}
+
+aside p {
+    font-family: BBCReithSerif;
+    font-weight: 380;
+    line-height: 1.5em;
+    padding-top: ;
+}
+
+p.plain-text{
+
+font-family: BBCReith;
+    font-weight: 400;
+    line-height: 1.5em;
+    font-size: 0.9em;
+}
